@@ -9,6 +9,30 @@ This Extension was made for [http://mygengo.com myGengo.com] to integrate myGeng
 
 ==Features==
 
+===Add myGengo Page component===
+http://fme-alfresco-extensions.googlecode.com/svn/trunk/myGengo/myGengo%20Share%20Theme/documentation/customize-site.png
+
+===Sign in to myGengo===
+http://fme-alfresco-extensions.googlecode.com/svn/trunk/myGengo/myGengo%20Share%20Theme/documentation/account.png
+
+===Ordering a new Translation===
+http://fme-alfresco-extensions.googlecode.com/svn/trunk/myGengo/myGengo%20Share%20Theme/documentation/job-order.png
+
+===List of translations===
+http://fme-alfresco-extensions.googlecode.com/svn/trunk/myGengo/myGengo%20Share%20Theme/documentation/job-list.png
+
+===View a translation===
+http://fme-alfresco-extensions.googlecode.com/svn/trunk/myGengo/myGengo%20Share%20Theme/documentation/job-view.png
+
+===Comment a translation===
+http://fme-alfresco-extensions.googlecode.com/svn/trunk/myGengo/myGengo%20Share%20Theme/documentation/job-comment.png
+
+===Approve a translation===
+http://fme-alfresco-extensions.googlecode.com/svn/trunk/myGengo/myGengo%20Share%20Theme/documentation/job-approve.png
+
+===Translate a document===
+http://fme-alfresco-extensions.googlecode.com/svn/trunk/myGengo/myGengo%20Share%20Theme/documentation/document-translate.png
+
 
 ==Compatibility==
 In general, the extension is compatible with Alfresco 3.4.x & 4.0.x.
