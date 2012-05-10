@@ -1,0 +1,36 @@
+#summary Alfresco myGengo translation integration
+
+<wiki:toc max_depth="3" />
+=  Alfresco myGengo translation integration =
+
+Author: fme AG ([http://alfresco.fme.de alfresco.fme.de] & alfresco(at)fme.de)
+
+This Extension was made for [http://mygengo.com myGengo.com] to integrate myGengo's translation service into Alfresco & enabling Alfresco users to order fast, cost-effective, and professional translations of any content stored in their Alfresco Repository using Alfresco Share.
+
+==Features==
+
+
+==Compatibility==
+In general, the extension is compatible with Alfresco 3.4.x & 4.0.x.
+The _Translate..._ Document Library action uses Alfresco Share's 4.0 extension capabilities & won't be visible in an 3.4.x system.
+
+==Installation & Configuration==
+You need to copy:
+  * *fme-myGengo-share.jar* to tomcat/shared/lib or tomcat/webapps/share/WEB-INF/lib
+  * *fme-myGengo-repository.jar* to tomcat/webapps/alfresco/WEB-INF/lib.
+
+If you like to use the myGengo sandbox (http://sandbox.mygengo.com/) & not the Live system, then simply add the following config to your _alfresco-global.properties_:
+  * *{{{mygengo.sandbox=true}}}*
+
+Per default your Alfresco system will poll the myGengo API for translation updates every 5 minutes. You can adjust the setting to your needs by modifying the following property in your _alfresco-global.properties_:
+  * *{{{mygengo.polling.interval=5}}}*
+
+== Source Code ==
+{{{http://fme-alfresco-extensions.googlecode.com/svn/trunk/myGengo}}}
+
+----
+powered by [http://www.fme.de fme]
+
+http://fme-alfresco-extensions.googlecode.com/svn/trunk/myGengo/myGengo%20Share%20Theme/source/web/themes/myGengoTheme/images/app-logo.png http://www.fme.de/uploads/pics/fmergb_38.jpg
+
+<g:plusone size="large"></g:plusone>
