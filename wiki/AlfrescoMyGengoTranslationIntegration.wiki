@@ -5,14 +5,20 @@
 
 Author: fme AG ([http://alfresco.fme.de alfresco.fme.de] & alfresco(at)fme.de)
 
-This Extension was made for [http://mygengo.com myGengo.com] to integrate myGengo's translation service into Alfresco & enabling Alfresco users to order fast, cost-effective, and professional translations of any content stored in their Alfresco Repository using Alfresco Share.
+This module was made for [http://mygengo.com myGengo.com] to integrate myGengo's translation service into Alfresco & enabling Alfresco users to order fast, cost-effective, and professional translations of any content stored in their Alfresco Repository using Alfresco Share.
 
 ==Features==
 
 ===Add myGengo Page component===
+A SiteManager of an Alfresco Share Site can add the myGengo component to a Site using the standard Customize-Site functionalities.
+ 
 http://fme-alfresco-extensions.googlecode.com/svn/trunk/myGengo/myGengo%20Share%20Theme/documentation/customize-site.png
 
 ===Sign in to myGengo===
+Only a SiteManager of an Alfresco Share Site is able to manage the site specific myGengo account settings (myGengo API credentials) using myGengo Passport:
+
+The myGengo API, like many others, relies on a system of API keys to sign and authenticate requests with. By authorizing the module via myGengo Passport these API keys are getting stored in the Alfresco Repository and will be used for any further myGengo API calls thru the module in the scope of the current site.
+
 http://fme-alfresco-extensions.googlecode.com/svn/trunk/myGengo/myGengo%20Share%20Theme/documentation/account.png
 
 ===Ordering a new Translation===
