@@ -21,6 +21,21 @@ The myGengo API, like many others, relies on a system of API keys to sign and au
 
 http://fme-alfresco-extensions.googlecode.com/svn/trunk/myGengo/myGengo%20Share%20Theme/documentation/account.png
 
+Currently the Passport mechanismn is not supported by myGengo's sandbox (test system). If like to test the module using the myGengo sandbox, then you've to set the API-Keys manually, e.g. by configuring & running the following script in the JavaScript Console:
+{{{
+//Provide your settings here
+var site = ""; //Site shortname
+var publicKey = "" // http://sandbox.mygengo.com/account/api_settings
+var privateKey = "" // http://sandbox.mygengo.com/account/api_settings
+
+//We need to set API keys here manually because passport authentication is not supported in myGengo's sandbox (test environment)
+var node = siteService.getSite(site).getContainer("myGengo");
+var account = myGengo.loadAccountInfo(publicKey, privateKey, "fme-Alfresco-myGengo-mygengo");
+myGengo.saveAccount(node, account);
+myGengo.loadLanguages(node);
+print("API Key set & language pairs loaded");
+}}}
+
 ===Ordering a new Translation===
 
 Once, the myGengo credentials are provided every member of the Site having at least SiteContributor permissions is able to request a new translation.
