@@ -18,11 +18,9 @@ The component has been developed to install on top of an existing Alfresco
 4.x installation. There are two different version in this archive with
 a specific folder for each of the Alfresco version.
 
-The extensions is distributed as a single jar file that can be copied to the 
-shared folder. It only contains Share extensions and no extensions to the
-Alfresco repository (at least at the moment).
+The extensions is distributed as a single jar file that can be copied to the shared folder. It only contains Share extensions and no extensions to the Alfresco repository (at least at the moment).
 
-Copy the file fme-alfresco-devtools-share-0.1.jar needs to be copied to:
+The file fme-alfresco-devtools-share-0.1.jar needs to be copied to:
 
   tomcat/shared/lib/
   
